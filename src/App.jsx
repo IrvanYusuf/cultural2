@@ -24,7 +24,7 @@ import TentangKami from "./components/TentangKami";
 import Kontak from "./components/Kontak";
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cultural">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
